@@ -22,7 +22,6 @@
   "main": "./lib/cors-anywhere.js",
   "files": [
     "lib/",
-    "test/",
     "Procfile",
     "demo.html",
     "server.js"
@@ -41,9 +40,7 @@
     "supertest": "^2.0.1"
   },
   "scripts": {
-    "lint": "eslint .",
-    "test": "mocha ./test/test*.js --reporter spec",
-    "test-coverage": "istanbul cover ./node_modules/.bin/_mocha -- test/test.js test/test-ratelimit.js --reporter spec"
+    "lint": "eslint ."
   },
   "engines": {
     "node": ">=0.10.0"
